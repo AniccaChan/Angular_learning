@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="">
+        <title>Test</title>
+        <link rel="stylesheet" href="">
+        <script src="" async defer></script>
+    </head>
+    <body ng-app>
+        price:<input type="text" ng-model="price" ng-init="price=300"><br>
+        value:<input type="number" ng-model="amt" ng-init="amt=1"><br>
+        Total: {{ price * amt}}
+    </body>
+</html>
